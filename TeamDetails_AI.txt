@@ -1,0 +1,11 @@
+Fill in the details (should be same as those while registering for CNI Hackathon):
+
+Team Name:just_another_random_team
+
+Team Member 1: (Assumed to be the team lead, by default)
+Name:Vishal Nitnaware
+Email ID:vishal20102@iiitnr.edu.in
+
+Team Member 2:
+Name:Rachit Chaddha
+Email ID:rachit20101@iiitnr.edu.in
