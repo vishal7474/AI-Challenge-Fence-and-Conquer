@@ -16,6 +16,10 @@ class player:
         self.count7 = 0
         self.count8 = 0
         self.count9 = 0
+        self.count10 = 0
+        self.count11 = 0
+        self.count12 = 0
+        self.count13 = 0
 
     def move(self,B,N,cur_x,cur_y):
 
@@ -106,11 +110,25 @@ class player:
             self.count9 += 1
             return lis[self.count9-1]
         else:
+            return self.move11(B,N,cur_x,cur_y)
+
+    def move11(self,B,N,cur_x,cur_y):
+
+        lis = [(1,0),(1,0),(1,0),(1,0),(1,0),(0,1),(0,1),(0,1),(0,1),(0,1),(-1,0),(-1,0),(-1,0),(-1,0),(-1,0)]
+        if (self.count10 != 15):
+            self.count10 += 1
+            return lis[self.count10-1]
+        else:
+            return self.move12(B,N,cur_x,cur_y)
+
+    def move12(self,B,N,cur_x,cur_y):
+
+        lis = [(0,1),(0,1),(0,1),(0,1),(0,1),(1,0),(1,0),(1,0),(1,0),(1,0),(0,-1),(0,-1),(0,-1),(0,-1),(0,-1)]
+        if (self.count11 != 15):
+            self.count11 += 1
+            return lis[self.count11-1]
+        else:
             return self.move1(B,N,cur_x,cur_y)
-
-
-
-
 
     def move1(self,B,N,cur_x,cur_y):
         self.step+=1
